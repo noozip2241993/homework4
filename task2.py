@@ -1,5 +1,5 @@
 import random
-def create_question():
+def generating_two_integers():
     num1= random.randrange(10)
     num2= random.randrange(10)
     return two_integers(num1,num2)
@@ -13,4 +13,4 @@ def two_integers(num1,num2):
             break
         else:
             print(f"{num1} times {num2} is not {guess}, please try again!")
-create_question()
+generating_two_integers()
